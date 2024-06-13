@@ -1,22 +1,62 @@
-{"intents": [
-        {"tag": "greeting",
-         "patterns": ["Hi there", "How are you", "Is anyone there?","Hey","Hola", "Hello", "Good day"],
-         "responses": ["Hello", "Good to see you again", "Hi there, how can I help?"],
-         "context": [""]
-        },
-        {"tag": "goodbye",
-         "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
-         "responses": ["See you!", "Have a nice day", "Bye! Come back again soon."],
-         "context": [""]
-        },
-        {"tag": "thanks",
-         "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
-         "responses": ["My pleasure", "You're Welcome"],
-         "context": [""]
-        },
-        {"tag": "query",
-         "patterns": ["What is Simplilearn?"],
-         "responses": ["Simplilearn is the popular online Bootcamp & online courses learning platform "],
-         "context": [""]
-        } 
-    ]}
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": ["Hi", "Hello", "Hey", "Good morning", "Good evening"],
+        "responses": ["Hello!", "Hi there!", "Greetings!", "How can I help you today?"]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": ["Bye", "See you later", "Goodbye", "Catch you later"],
+        "responses": ["Goodbye!", "See you later!", "Have a great day!", "Take care!"]
+      },
+      {
+        "tag": "thanks",
+        "patterns": ["Thanks", "Thank you", "That's helpful", "Thanks a lot"],
+        "responses": ["You're welcome!", "Happy to help!", "Anytime!", "My pleasure!"]
+      },
+      {
+        "tag": "about",
+        "patterns": ["What is your name?", "Who are you?", "What do you do?"],
+        "responses": ["I'm a chatbot created to assist you.", "I'm here to help you with your questions.", "You can call me your assistant."]
+      },
+      {
+        "tag": "help",
+        "patterns": ["Can you help me?", "I need assistance", "Help me", "I need help"],
+        "responses": ["Sure, how can I assist you?", "What do you need help with?", "I'm here to help you!"]
+      },
+      {
+        "tag": "hours",
+        "patterns": ["What are your hours?", "When are you open?", "What are your working hours?"],
+        "responses": ["We are open 24/7.", "Our working hours are 24/7."]
+      },
+      {
+        "tag": "payments",
+        "patterns": ["Do you accept credit cards?", "Do you accept debit cards?", "Do you take cash?", "How can I pay?"],
+        "responses": ["We accept credit and debit cards.", "You can pay using cash or card."]
+      },
+      {
+        "tag": "services",
+        "patterns": ["What services do you offer?", "Tell me about your services", "What can you do for me?"],
+        "responses": ["We offer a range of services including customer support, information retrieval, and more. How can I help you today?"]
+      },
+      {
+        "tag": "pricing",
+        "patterns": ["How much does it cost?", "What are your prices?", "Can you tell me the price?"],
+        "responses": ["Our pricing varies depending on the service. Please visit our website or contact support for detailed pricing information."]
+      },
+      {
+        "tag": "product_inquiry",
+        "patterns": ["Tell me about product X", "What are the features of product Y?", "Do you have product Z?"],
+        "responses": ["Product X is a high-quality item that offers...", "The features of product Y include...", "Yes, we have product Z in stock. Would you like to know more?"]
+      },
+
+      {
+        "tag": "technical_support",
+        "patterns": ["I'm having trouble with my order", "My product isn't working", "I need technical support"],
+        "responses": ["I'm sorry to hear that. Please provide more details about the issue.", "Can you describe the problem you are facing?", "Our technical support team is here to help. What seems to be the problem?"]
+      }
+      
+    ]
+  }
+  
